@@ -80,7 +80,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/BarGUI.cpp">
+			<Option target="progressbar_master"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/BarGUI.h">
+			<Option target="progressbar_master"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/Display.h">
+			<Option target="progressbar_master"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/FileManager.cpp">
+			<Option target="progressbar_master"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/FileManager.h">
+			<Option target="progressbar_master"/>
+		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/Observer.h">
+			<Option target="progressbar_master"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/ResourceFile.cpp">
+			<Option target="progressbar_master"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/ResourceFile.h">
 			<Option target="progressbar_master"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/Subject.h">

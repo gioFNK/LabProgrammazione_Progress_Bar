@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/progressbar_master.dir/main.cpp.obj"
+  "CMakeFiles/progressbar_master.dir/BarGUI.cpp.obj"
+  "CMakeFiles/progressbar_master.dir/FileManager.cpp.obj"
+  "CMakeFiles/progressbar_master.dir/ResourceFile.cpp.obj"
   "progressbar_master.pdb"
   "progressbar_master.exe"
   "progressbar_master.exe.manifest"

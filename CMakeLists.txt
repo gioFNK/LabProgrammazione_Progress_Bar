@@ -3,4 +3,4 @@ project(progressbar_master)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(progressbar_master main.cpp Subject.h Observer.h)
+add_executable(progressbar_master main.cpp Subject.h Observer.h BarGUI.cpp BarGUI.h Display.h FileManager.h FileManager.cpp ResourceFile.h ResourceFile.cpp)

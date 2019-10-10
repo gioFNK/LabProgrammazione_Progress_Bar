@@ -12,7 +12,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be3b473a-4d09-43df-950b-2c1a1ab02954" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BarGUI.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BarGUI.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Display.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileManager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResourceFile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ResourceFile.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progressbar_master.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/progressbar_master.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/progressbar_master.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/progressbar_master.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/progressbar_master.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +114,10 @@
       <workItem from="1568126763638" duration="301000" />
       <workItem from="1568291028515" duration="1669000" />
       <workItem from="1568293801968" duration="874000" />
+      <workItem from="1568295057860" duration="1034000" />
+      <workItem from="1568383259328" duration="596000" />
+      <workItem from="1570701521897" duration="579000" />
+      <workItem from="1570702462864" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="Primo commit&#10;Aggiunto Observer e Subject">
       <created>1568292693546</created>

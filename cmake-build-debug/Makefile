@@ -122,6 +122,87 @@ progressbar_master/fast:
 	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/build
 .PHONY : progressbar_master/fast
 
+BarGUI.obj: BarGUI.cpp.obj
+
+.PHONY : BarGUI.obj
+
+# target to build an object file
+BarGUI.cpp.obj:
+	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/BarGUI.cpp.obj
+.PHONY : BarGUI.cpp.obj
+
+BarGUI.i: BarGUI.cpp.i
+
+.PHONY : BarGUI.i
+
+# target to preprocess a source file
+BarGUI.cpp.i:
+	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/BarGUI.cpp.i
+.PHONY : BarGUI.cpp.i
+
+BarGUI.s: BarGUI.cpp.s
+
+.PHONY : BarGUI.s
+
+# target to generate assembly for a file
+BarGUI.cpp.s:
+	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/BarGUI.cpp.s
+.PHONY : BarGUI.cpp.s
+
+FileManager.obj: FileManager.cpp.obj
+
+.PHONY : FileManager.obj
+
+# target to build an object file
+FileManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/FileManager.cpp.obj
+.PHONY : FileManager.cpp.obj
+
+FileManager.i: FileManager.cpp.i
+
+.PHONY : FileManager.i
+
+# target to preprocess a source file
+FileManager.cpp.i:
+	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/FileManager.cpp.i
+.PHONY : FileManager.cpp.i
+
+FileManager.s: FileManager.cpp.s
+
+.PHONY : FileManager.s
+
+# target to generate assembly for a file
+FileManager.cpp.s:
+	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/FileManager.cpp.s
+.PHONY : FileManager.cpp.s
+
+ResourceFile.obj: ResourceFile.cpp.obj
+
+.PHONY : ResourceFile.obj
+
+# target to build an object file
+ResourceFile.cpp.obj:
+	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/ResourceFile.cpp.obj
+.PHONY : ResourceFile.cpp.obj
+
+ResourceFile.i: ResourceFile.cpp.i
+
+.PHONY : ResourceFile.i
+
+# target to preprocess a source file
+ResourceFile.cpp.i:
+	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/ResourceFile.cpp.i
+.PHONY : ResourceFile.cpp.i
+
+ResourceFile.s: ResourceFile.cpp.s
+
+.PHONY : ResourceFile.s
+
+# target to generate assembly for a file
+ResourceFile.cpp.s:
+	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/ResourceFile.cpp.s
+.PHONY : ResourceFile.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +239,15 @@ help:
 	@echo ... progressbar_master
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... BarGUI.obj
+	@echo ... BarGUI.i
+	@echo ... BarGUI.s
+	@echo ... FileManager.obj
+	@echo ... FileManager.i
+	@echo ... FileManager.s
+	@echo ... ResourceFile.obj
+	@echo ... ResourceFile.i
+	@echo ... ResourceFile.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

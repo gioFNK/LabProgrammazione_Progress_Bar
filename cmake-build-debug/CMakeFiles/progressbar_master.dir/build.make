@@ -69,19 +69,64 @@ CMakeFiles/progressbar_master.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/progressbar_master.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\giofn\OneDrive\Desktop\progressbar-master\main.cpp -o CMakeFiles\progressbar_master.dir\main.cpp.s
 
+CMakeFiles/progressbar_master.dir/BarGUI.cpp.obj: CMakeFiles/progressbar_master.dir/flags.make
+CMakeFiles/progressbar_master.dir/BarGUI.cpp.obj: ../BarGUI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\progressbar-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/progressbar_master.dir/BarGUI.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\progressbar_master.dir\BarGUI.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\progressbar-master\BarGUI.cpp
+
+CMakeFiles/progressbar_master.dir/BarGUI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/progressbar_master.dir/BarGUI.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\giofn\OneDrive\Desktop\progressbar-master\BarGUI.cpp > CMakeFiles\progressbar_master.dir\BarGUI.cpp.i
+
+CMakeFiles/progressbar_master.dir/BarGUI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/progressbar_master.dir/BarGUI.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\giofn\OneDrive\Desktop\progressbar-master\BarGUI.cpp -o CMakeFiles\progressbar_master.dir\BarGUI.cpp.s
+
+CMakeFiles/progressbar_master.dir/FileManager.cpp.obj: CMakeFiles/progressbar_master.dir/flags.make
+CMakeFiles/progressbar_master.dir/FileManager.cpp.obj: ../FileManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\progressbar-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/progressbar_master.dir/FileManager.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\progressbar_master.dir\FileManager.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\progressbar-master\FileManager.cpp
+
+CMakeFiles/progressbar_master.dir/FileManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/progressbar_master.dir/FileManager.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\giofn\OneDrive\Desktop\progressbar-master\FileManager.cpp > CMakeFiles\progressbar_master.dir\FileManager.cpp.i
+
+CMakeFiles/progressbar_master.dir/FileManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/progressbar_master.dir/FileManager.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\giofn\OneDrive\Desktop\progressbar-master\FileManager.cpp -o CMakeFiles\progressbar_master.dir\FileManager.cpp.s
+
+CMakeFiles/progressbar_master.dir/ResourceFile.cpp.obj: CMakeFiles/progressbar_master.dir/flags.make
+CMakeFiles/progressbar_master.dir/ResourceFile.cpp.obj: ../ResourceFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\giofn\OneDrive\Desktop\progressbar-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/progressbar_master.dir/ResourceFile.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\progressbar_master.dir\ResourceFile.cpp.obj -c C:\Users\giofn\OneDrive\Desktop\progressbar-master\ResourceFile.cpp
+
+CMakeFiles/progressbar_master.dir/ResourceFile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/progressbar_master.dir/ResourceFile.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\giofn\OneDrive\Desktop\progressbar-master\ResourceFile.cpp > CMakeFiles\progressbar_master.dir\ResourceFile.cpp.i
+
+CMakeFiles/progressbar_master.dir/ResourceFile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/progressbar_master.dir/ResourceFile.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\giofn\OneDrive\Desktop\progressbar-master\ResourceFile.cpp -o CMakeFiles\progressbar_master.dir\ResourceFile.cpp.s
+
 # Object files for target progressbar_master
 progressbar_master_OBJECTS = \
-"CMakeFiles/progressbar_master.dir/main.cpp.obj"
+"CMakeFiles/progressbar_master.dir/main.cpp.obj" \
+"CMakeFiles/progressbar_master.dir/BarGUI.cpp.obj" \
+"CMakeFiles/progressbar_master.dir/FileManager.cpp.obj" \
+"CMakeFiles/progressbar_master.dir/ResourceFile.cpp.obj"
 
 # External object files for target progressbar_master
 progressbar_master_EXTERNAL_OBJECTS =
 
 progressbar_master.exe: CMakeFiles/progressbar_master.dir/main.cpp.obj
+progressbar_master.exe: CMakeFiles/progressbar_master.dir/BarGUI.cpp.obj
+progressbar_master.exe: CMakeFiles/progressbar_master.dir/FileManager.cpp.obj
+progressbar_master.exe: CMakeFiles/progressbar_master.dir/ResourceFile.cpp.obj
 progressbar_master.exe: CMakeFiles/progressbar_master.dir/build.make
 progressbar_master.exe: CMakeFiles/progressbar_master.dir/linklibs.rsp
 progressbar_master.exe: CMakeFiles/progressbar_master.dir/objects1.rsp
 progressbar_master.exe: CMakeFiles/progressbar_master.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\giofn\OneDrive\Desktop\progressbar-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable progressbar_master.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\giofn\OneDrive\Desktop\progressbar-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable progressbar_master.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\progressbar_master.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
