@@ -17,6 +17,48 @@
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="core">
+				<Option output="C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 core"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="core/fast">
+				<Option output="C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug/libcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 core/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="progressbar_master">
 				<Option output="C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug/progressbar_master.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/giofn/OneDrive/Desktop/progressbar-master/cmake-build-debug"/>
@@ -81,33 +123,51 @@
 			</Target>
 		</Build>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/BarGUI.cpp">
+			<Option target="core"/>
 			<Option target="progressbar_master"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/BarGUI.h">
+			<Option target="core"/>
 			<Option target="progressbar_master"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/Display.h">
+			<Option target="core"/>
 			<Option target="progressbar_master"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/FileManager.cpp">
+			<Option target="core"/>
 			<Option target="progressbar_master"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/FileManager.h">
+			<Option target="core"/>
 			<Option target="progressbar_master"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/Observer.h">
+			<Option target="core"/>
+			<Option target="progressbar_master"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/ProgressBarDisplay.cpp">
+			<Option target="core"/>
+			<Option target="progressbar_master"/>
+		</Unit>
+		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/ProgressBarDisplay.h">
+			<Option target="core"/>
 			<Option target="progressbar_master"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/ResourceFile.cpp">
+			<Option target="core"/>
 			<Option target="progressbar_master"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/ResourceFile.h">
+			<Option target="core"/>
 			<Option target="progressbar_master"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/Subject.h">
+			<Option target="core"/>
 			<Option target="progressbar_master"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/main.cpp">
+			<Option target="core"/>
 			<Option target="progressbar_master"/>
 		</Unit>
 		<Unit filename="C:/Users/giofn/OneDrive/Desktop/progressbar-master/CMakeLists.txt">

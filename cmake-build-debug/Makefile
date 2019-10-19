@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named core
+
+# Build rule for target.
+core: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 core
+.PHONY : core
+
+# fast build rule for target.
+core/fast:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/build
+.PHONY : core/fast
+
+#=============================================================================
 # Target rules for targets named progressbar_master
 
 # Build rule for target.
@@ -128,6 +141,7 @@ BarGUI.obj: BarGUI.cpp.obj
 
 # target to build an object file
 BarGUI.cpp.obj:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/BarGUI.cpp.obj
 	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/BarGUI.cpp.obj
 .PHONY : BarGUI.cpp.obj
 
@@ -137,6 +151,7 @@ BarGUI.i: BarGUI.cpp.i
 
 # target to preprocess a source file
 BarGUI.cpp.i:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/BarGUI.cpp.i
 	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/BarGUI.cpp.i
 .PHONY : BarGUI.cpp.i
 
@@ -146,6 +161,7 @@ BarGUI.s: BarGUI.cpp.s
 
 # target to generate assembly for a file
 BarGUI.cpp.s:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/BarGUI.cpp.s
 	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/BarGUI.cpp.s
 .PHONY : BarGUI.cpp.s
 
@@ -155,6 +171,7 @@ FileManager.obj: FileManager.cpp.obj
 
 # target to build an object file
 FileManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/FileManager.cpp.obj
 	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/FileManager.cpp.obj
 .PHONY : FileManager.cpp.obj
 
@@ -164,6 +181,7 @@ FileManager.i: FileManager.cpp.i
 
 # target to preprocess a source file
 FileManager.cpp.i:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/FileManager.cpp.i
 	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/FileManager.cpp.i
 .PHONY : FileManager.cpp.i
 
@@ -173,8 +191,39 @@ FileManager.s: FileManager.cpp.s
 
 # target to generate assembly for a file
 FileManager.cpp.s:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/FileManager.cpp.s
 	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/FileManager.cpp.s
 .PHONY : FileManager.cpp.s
+
+ProgressBarDisplay.obj: ProgressBarDisplay.cpp.obj
+
+.PHONY : ProgressBarDisplay.obj
+
+# target to build an object file
+ProgressBarDisplay.cpp.obj:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/ProgressBarDisplay.cpp.obj
+	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/ProgressBarDisplay.cpp.obj
+.PHONY : ProgressBarDisplay.cpp.obj
+
+ProgressBarDisplay.i: ProgressBarDisplay.cpp.i
+
+.PHONY : ProgressBarDisplay.i
+
+# target to preprocess a source file
+ProgressBarDisplay.cpp.i:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/ProgressBarDisplay.cpp.i
+	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/ProgressBarDisplay.cpp.i
+.PHONY : ProgressBarDisplay.cpp.i
+
+ProgressBarDisplay.s: ProgressBarDisplay.cpp.s
+
+.PHONY : ProgressBarDisplay.s
+
+# target to generate assembly for a file
+ProgressBarDisplay.cpp.s:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/ProgressBarDisplay.cpp.s
+	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/ProgressBarDisplay.cpp.s
+.PHONY : ProgressBarDisplay.cpp.s
 
 ResourceFile.obj: ResourceFile.cpp.obj
 
@@ -182,6 +231,7 @@ ResourceFile.obj: ResourceFile.cpp.obj
 
 # target to build an object file
 ResourceFile.cpp.obj:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/ResourceFile.cpp.obj
 	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/ResourceFile.cpp.obj
 .PHONY : ResourceFile.cpp.obj
 
@@ -191,6 +241,7 @@ ResourceFile.i: ResourceFile.cpp.i
 
 # target to preprocess a source file
 ResourceFile.cpp.i:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/ResourceFile.cpp.i
 	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/ResourceFile.cpp.i
 .PHONY : ResourceFile.cpp.i
 
@@ -200,6 +251,7 @@ ResourceFile.s: ResourceFile.cpp.s
 
 # target to generate assembly for a file
 ResourceFile.cpp.s:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/ResourceFile.cpp.s
 	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/ResourceFile.cpp.s
 .PHONY : ResourceFile.cpp.s
 
@@ -209,6 +261,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/main.cpp.obj
 	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
@@ -218,6 +271,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -227,6 +281,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles\progressbar_master.dir\build.make CMakeFiles/progressbar_master.dir/main.cpp.s
 .PHONY : main.cpp.s
 
@@ -236,6 +291,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... core
 	@echo ... progressbar_master
 	@echo ... edit_cache
 	@echo ... rebuild_cache
@@ -245,6 +301,9 @@ help:
 	@echo ... FileManager.obj
 	@echo ... FileManager.i
 	@echo ... FileManager.s
+	@echo ... ProgressBarDisplay.obj
+	@echo ... ProgressBarDisplay.i
+	@echo ... ProgressBarDisplay.s
 	@echo ... ResourceFile.obj
 	@echo ... ResourceFile.i
 	@echo ... ResourceFile.s
