@@ -27,5 +27,12 @@ CMakeFiles/progressbar_master.dir/ProgressBarDisplay.cpp.obj: ../Subject.h
 CMakeFiles/progressbar_master.dir/ResourceFile.cpp.obj: ../ResourceFile.cpp
 CMakeFiles/progressbar_master.dir/ResourceFile.cpp.obj: ../ResourceFile.h
 
+CMakeFiles/progressbar_master.dir/main.cpp.obj: ../BarGUI.h
+CMakeFiles/progressbar_master.dir/main.cpp.obj: ../Display.h
+CMakeFiles/progressbar_master.dir/main.cpp.obj: ../FileManager.h
+CMakeFiles/progressbar_master.dir/main.cpp.obj: ../Observer.h
+CMakeFiles/progressbar_master.dir/main.cpp.obj: ../ProgressBarDisplay.h
+CMakeFiles/progressbar_master.dir/main.cpp.obj: ../ResourceFile.h
+CMakeFiles/progressbar_master.dir/main.cpp.obj: ../Subject.h
 CMakeFiles/progressbar_master.dir/main.cpp.obj: ../main.cpp
 
